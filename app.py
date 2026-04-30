@@ -105,7 +105,7 @@ if audio_bytes:
             
             try:
                 # 2026年現在の安定モデル名に修正（404対策）
-                model = genai.GenerativeModel('gemini-2.0-flash')
+                model = genai.GenerativeModel('gemini-1.5-flash')
                 
                 prompt = f"""
                 あなたは英語教師です。以下の「元の英文」と「音声」を比較し、採点してください。
