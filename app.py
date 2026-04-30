@@ -71,7 +71,7 @@ if audio_bytes and source_text and student_api_key and student_id:
         if st.button("✨ この録音を採点する"):
             with st.spinner("AIが発音を分析中..."):
                 try:
-                    model = genai.GenerativeModel('gemini-1.5-flash-latest')
+                    model = genai.GenerativeModel('gemini-3-flash')
                     
                     # AIへの指示（確実に点数を抽出できるようにフォーマットを固定）
                     prompt = f"""
