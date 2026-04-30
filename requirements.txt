@@ -1,5 +1,5 @@
 streamlit
-google-generativeai
+google-generativeai>=0.8.0
 audio-recorder-streamlit
 PyPDF2
 docx2txt
